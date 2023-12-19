@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+    int x = 10;
+    float y = 5.5;
+    if (x > y) {
+        std::cout << "x is greater than y" << std::endl;
+    } else {
+        std::cout << "x is not greater than y" << std::endl;
+    }
+    return 0;
+}
